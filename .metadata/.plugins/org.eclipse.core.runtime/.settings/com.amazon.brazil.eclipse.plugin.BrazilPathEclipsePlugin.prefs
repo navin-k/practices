@@ -1,0 +1,13 @@
+CASStorageRepository\:cacheSourceString=ALL
+CASStorageRepository\:packageRoot=/Users/navink/Documents/workspace/test/src/CASStorageRepository
+DTCStorageCommons\:cacheSourceString=ALL
+DTCStorageCommons\:packageRoot=/Users/navink/Documents/workspace/test/src/DTCStorageCommons
+Jets3tStorageRepository\:cacheSourceString=ALL
+Jets3tStorageRepository\:packageRoot=/Users/navink/Documents/workspace/test/src/Jets3tStorageRepository
+ProcessExecutor\:cacheSourceString=ALL
+ProcessExecutor\:packageRoot=/Users/navink/Documents/workspace/test/src/ProcessExecutor
+StorageRepository\:cacheSourceString=ALL
+StorageRepository\:packageRoot=/Users/navink/Documents/workspace/test/src/StorageRepository
+StudentVendorService\:cacheSourceString=ALL
+StudentVendorService\:packageRoot=/Users/navink/Documents/workspace/test/src/StudentVendorService
+eclipse.preferences.version=1

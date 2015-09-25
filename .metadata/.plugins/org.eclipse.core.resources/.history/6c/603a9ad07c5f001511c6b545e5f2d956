@@ -1,0 +1,18 @@
+package com.navink.wtp.first.servlet;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+import com.navink.wtp.first.dao.FileDao;
+
+/**
+ * Servlet implementation class FileCounter
+ */
+@WebServlet("/FileCounter")
+public class FileCounter extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	int count;
+	private FileDao dao;
+
+}

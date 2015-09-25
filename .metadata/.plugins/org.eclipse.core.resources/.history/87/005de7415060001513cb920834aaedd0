@@ -1,0 +1,9 @@
+package com.navink.wtp.first.client;
+
+public class Client {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

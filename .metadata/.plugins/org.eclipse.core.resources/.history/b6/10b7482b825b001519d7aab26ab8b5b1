@@ -1,0 +1,25 @@
+package com.demo;
+
+public class ClinicalString {
+
+	public static void main(String[] args) {
+		System.out.println((int)'a' + ":" + (int)'z');
+		String str = "astorys";
+		char[] array = str.toCharArray();
+		clinicalIncrement(array);
+	}
+
+	private static void clinicalIncrement(char[] array) {
+		int[] increment = new int[26];
+		for (int i=0 ; i<array.length ; i++) {
+			increment[array[i] - 97]++;
+			System.out.println(increment[array[i] - 97]);
+		}
+
+		char[]result = new char[array.length];
+		for(int i=array.length ; i<=0 ; i++) {
+			
+		}
+	}
+
+}

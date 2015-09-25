@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" basedir="." name="Test Build"> 
+    <target name="compile">
+        <javac includeantruntime="false" srcdir="./src" destdir="build" />
+    </target>
+    <target name="run" depends="compile">
+    	<java classname="com.demo.DemoClass">
+    		<classpath path="build" />
+    	</java>
+    </target>
+</project>

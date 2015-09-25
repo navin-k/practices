@@ -1,0 +1,12 @@
+package com.navink.wtp.first.client;
+
+import sun.net.www.http.HttpClient;
+
+public class Client {
+
+	public static void main(String[] args) {
+//		http://localhost:8080/com.navink.wtp.first/FileCounter
+		String url = "http://localhost:8080/com.navink.wtp.first/FileCounter";
+	}
+
+}

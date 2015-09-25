@@ -1,0 +1,10 @@
+package com.demo;
+
+public class BitManipulation {
+
+	public static void main(String[] args) {
+		int j = 2;
+		System.out.println(2 << j);
+	}
+
+}

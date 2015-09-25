@@ -1,0 +1,12 @@
+package com.demo;
+
+public class BitManipulation {
+
+	public static void main(String[] args) {
+		int max = ~0;
+		int j = 2;
+		System.out.println(Integer.MAX_VALUE);
+		System.out.println(max - ((1 << j) - 1));
+	}
+
+}

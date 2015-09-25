@@ -1,0 +1,31 @@
+package com.demo;
+
+public class HackerRank {
+
+	public static void main(String[] args) {
+        String s = "";
+        String copy = new String(s);
+        char[] charArray = s.toCharArray();
+        int pivot = findPivot(charArray);
+        int next = findNext(charArray, charArray[pivot]);
+        // Swap pivot and next
+        sortRest(charArray, pivot);
+
+    }
+
+	private static void sortRest(char[] charArray, int pivot) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static int findNext(char[] charArray, char c) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	private static int findPivot(char[] charArray) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

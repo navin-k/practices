@@ -1,0 +1,15 @@
+package com.demo;
+
+public class WildCards {
+
+	public static void main(String[] args) {
+		String wc = "";
+		String str = "";
+		checkEquivalence(wc.toCharArray(), str.toCharArray());
+	}
+
+	private static void checkEquivalence(String wc, String str) {
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package com.navink.restapi.controller;
+
+@SpringBootApplication
+public class Application {
+
+}

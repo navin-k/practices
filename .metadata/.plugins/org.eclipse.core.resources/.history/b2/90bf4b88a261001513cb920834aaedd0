@@ -1,0 +1,16 @@
+package com.navink.s3.put;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class PutHandler {
+
+	public HttpServletResponse handleRequest(
+			HttpServletRequest req, HttpServletResponse res) {
+		createPutRequest(req);
+		return null;
+	}
+
+	private void createPutRequest(HttpServletRequest req) {
+	}
+}

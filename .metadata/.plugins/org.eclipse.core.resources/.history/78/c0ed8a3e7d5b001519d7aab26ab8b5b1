@@ -1,0 +1,11 @@
+package com.demo;
+
+public class ClinicalString {
+
+	public static void main(String[] args) {
+		String str = "";
+		char[] array = str.toCharArray();
+		clinicalIncrement(str);
+	}
+
+}

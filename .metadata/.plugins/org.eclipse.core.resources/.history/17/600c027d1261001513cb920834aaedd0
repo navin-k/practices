@@ -1,0 +1,58 @@
+package com.demo;
+
+public class HackerRank {
+
+	public static void main(String[] args) {
+        String s = "dkhc";
+        String copy = new String(s);
+        char[] charArray = s.toCharArray();
+        int pivot = findPivot(charArray);
+        int next = findNext(charArray, charArray[pivot]);
+        
+//        char temp = charArray[pivot];
+//        charArray[pivot] = charArray[next];
+//        charArray[next] = temp;
+        charArray[pivot] = (char)((int)charArray[pivot] + (int)charArray[next]);
+        charArray[next] = (char)((int)charArray[pivot] - (int)charArray[next]);
+        charArray[pivot] = (char)((int)charArray[pivot] - (int)charArray[next]);
+        System.out.println("After swap:" + new String(charArray));
+        
+        sortRest(charArray, pivot);
+        if (!copy.equalsIgnoreCase(new String(charArray))) {
+        	System.out.println("Got it:" + new String(charArray));
+        }
+
+    }
+
+	private static void sortRest(char[] charArray, int pivot) {
+		for (int i=pivot ; i< charArray.length ; i++) {
+			for (int j=pivot ; j<charArray.length - 1 ; j++) {
+				if (charArray[j] > charArray[j+1]) {
+			        charArray[j] = (char)((int)charArray[j] + (int)charArray[j+1]);
+			        charArray[j+1] = (char)((int)charArray[j] - (int)charArray[j+1]);
+			        charArray[j] = (char)((int)charArray[j] - (int)charArray[j+1]);					
+				}
+			}
+		}
+		
+	}
+
+	private static int findNext(char[] charArray, char c) {
+		int i = 0;
+		for(i=0 ; i< charArray.length ; i++) {
+			if (charArray[i] > c)
+				break;
+		}
+		return i;
+	}
+
+	private static int findPivot(char[] charArray) {
+		int i = 0;
+		for(i=charArray.length-1 ; i>=0 ; i--) {
+			if (charArray[i] < charArray[i+1])
+				break;
+		} 
+		return i;
+	}
+
+}

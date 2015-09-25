@@ -1,0 +1,14 @@
+package com.navink.s3.exceptions;
+
+public class InvalidInputException extends Exception {
+
+	public InvalidInputException() {
+		super();
+	}
+	public InvalidInputException(String msg) {
+		super(msg);
+	}
+	public InvalidInputException(Throwable e) {
+		super(e);
+	}
+}

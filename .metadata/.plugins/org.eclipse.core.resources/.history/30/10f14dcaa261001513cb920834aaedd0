@@ -1,0 +1,8 @@
+package com.navink.s3.put;
+
+public class RequestValidation {
+
+	public void validateRequest() {
+		
+	}
+}

@@ -1,0 +1,17 @@
+package com.demo;
+
+public class ClinicalString {
+
+	public static void main(String[] args) {
+		System.out.println((int)'a' + ":" + (int)'z');
+		String str = "";
+		char[] array = str.toCharArray();
+		clinicalIncrement(array);
+	}
+
+	private static void clinicalIncrement(char[] array) {
+		char[] increment = new char[26];
+		
+	}
+
+}

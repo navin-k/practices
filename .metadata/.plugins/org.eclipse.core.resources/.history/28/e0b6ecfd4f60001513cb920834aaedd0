@@ -1,0 +1,5 @@
+package com.navink.wtp.first.client;
+
+public class HttpClient {
+
+}

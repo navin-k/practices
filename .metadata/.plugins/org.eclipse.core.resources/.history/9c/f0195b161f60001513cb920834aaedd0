@@ -1,0 +1,5 @@
+package com.navink.restapi.controller;
+
+public class GreetingController {
+
+}

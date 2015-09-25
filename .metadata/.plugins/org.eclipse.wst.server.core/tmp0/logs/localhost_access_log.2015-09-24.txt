@@ -1,0 +1,8 @@
+127.0.0.1 - - [24/Sep/2015:09:06:37 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [24/Sep/2015:09:06:38 +0530] "GET /com.navink.wtp.first/FileCounter HTTP/1.1" 500 366
+127.0.0.1 - - [24/Sep/2015:09:07:29 +0530] "GET /com.navink.wtp.first/FileCounter HTTP/1.1" 500 366
+127.0.0.1 - - [24/Sep/2015:09:10:59 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [24/Sep/2015:09:11:00 +0530] "GET /com.navink.wtp.first/FileCounter HTTP/1.1" 500 366
+127.0.0.1 - - [24/Sep/2015:09:11:35 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [24/Sep/2015:09:11:36 +0530] "GET /com.navink.wtp.first/FileCounter HTTP/1.1" 200 366
+127.0.0.1 - - [24/Sep/2015:09:11:49 +0530] "GET /com.navink.wtp.first/FileCounter HTTP/1.1" 200 366

@@ -1,0 +1,11 @@
+package com.navink.s3.put;
+
+import jdk.nashorn.internal.objects.annotations.Setter;
+
+public class S3PutRequest {
+
+	@Setter
+	private String bucket;
+	private String key;
+
+}

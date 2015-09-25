@@ -1,0 +1,10 @@
+package com.navink.s3.common;
+
+import com.navink.s3.put.S3PutRequest;
+
+public final class ValidationHelper {
+
+	public static void validatePutRequest(S3PutRequest req) {
+		
+	}
+}
