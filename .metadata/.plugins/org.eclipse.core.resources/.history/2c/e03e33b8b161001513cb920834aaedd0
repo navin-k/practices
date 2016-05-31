@@ -1,5 +1,0 @@
-package com.navink.s3.exceptions;
-
-public class InvalidInputException {
-
-}

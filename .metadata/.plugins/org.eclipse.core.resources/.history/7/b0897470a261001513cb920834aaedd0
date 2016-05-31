@@ -1,9 +1,0 @@
-package com.navink.s3.put;
-
-public class S3PutRequest {
-
-	@Setter
-	private String bucket;
-	private String key;
-
-}
